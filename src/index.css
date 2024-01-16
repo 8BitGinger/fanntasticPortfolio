@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #f4671b 21.43%,
+    #f09308 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  border: 1px solid rgba(0, 0, 0, 0.441);
+  box-shadow: 0px 4.42184px 22.23px rgba(253, 255, 128, 0.628);
+}
+
+.btn-round {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  animation: spin 6000ms infinite;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #f4a742 100%,
+    #f06108 117.04%
+  );
+  box-shadow: 0px 4.42184px 22.23px rgba(241, 168, 31, 0.628);
+
+  scale: 1.1;
+}
+
+.gradient,
+.active {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #f47a42 100%,
+    #f0a308 117.04%
+  );
+}
+
+.text-gradient {
+  background: linear-gradient(
+    92.23deg,
+    #42a6e3 21.43%,
+    #0164f9 50.63%,
+    #f47a42 100%,
+    #f0a308 117.04%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.small {
+  font-size: 12px;
+  margin: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.active {
+  color: #fff;
+  padding: 0rem;
+  border-radius: 100%;
+}
+
+.icons {
+  font-size: 35px;
+}
+
+.icons:hover {
+  color: dodgerblue;
+  scale: 1.2;
+}
+
+.avatar {
+  animation: grow-and-shrink 6000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: -20px;
+  margin-right: 35px;
+}
+
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(1.8);
+  }
+  25% {
+    transform: scale(1.4);
+  }
+  50% {
+    transform: scale(1.8);
+  }
+  75% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1.8);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+  }
+  .btn {
+    @apply rounded-full font-primary text-white font-medium;
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm;
+  }
+  .btn-lg {
+    @apply h-[56px] px-10 text-base;
+  }
+  .btn-link {
+    @apply text-base;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+  }
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}

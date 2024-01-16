@@ -21,6 +21,13 @@
   animation: spin 6000ms infinite;
 }
 
+.btn-round-2 {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  font-size: small;
+}
+
 .btn:hover {
   background: linear-gradient(
     92.23deg,

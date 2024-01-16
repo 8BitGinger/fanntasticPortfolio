@@ -77,8 +77,12 @@ const Banner = () => {
                 viewport={{ once: false, amount: 0.7 }}
                 className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
               >
-                <button className="btn btn-sm">My Portfolio</button>
-                <button className="btn btn-sm">Work with me</button>
+                <a href="#work">
+                  <button className="btn btn-sm">My Portfolio</button>
+                </a>
+                <a href="#contact">
+                  <button className="btn btn-sm">Work with me</button>
+                </a>
               </motion.div>
               <motion.div
                 variants={fadeIn('up', 0.3)}

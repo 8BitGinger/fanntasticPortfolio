@@ -6,16 +6,20 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
+      <Header />
       <Banner />
       <Nav />
       <About />
       <Skills />
       <Work />
       <Contact />
+      <Footer />
       <div className="h-fit"></div>
     </div>
   );

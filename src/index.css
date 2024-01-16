@@ -41,6 +41,14 @@
   scale: 1.1;
 }
 
+.footer {
+  background-color: #faad08d4;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 300px;
+}
+
 .gradient,
 .active {
   background: linear-gradient(

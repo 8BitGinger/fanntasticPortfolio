@@ -1,7 +1,7 @@
 <a id="badges"></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Ryan Fann's Developer Portfolio
+# Ryan Fann's React Portfolio
 
 ---
 

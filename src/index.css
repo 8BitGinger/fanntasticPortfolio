@@ -95,6 +95,14 @@
   scale: 1.2;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 .avatar {
   animation: grow-and-shrink 6000ms;
   animation-iteration-count: infinite;

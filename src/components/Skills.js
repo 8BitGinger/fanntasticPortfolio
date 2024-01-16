@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { BsArrowUpRight } from 'react-icons/bs';
-
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
@@ -54,10 +52,10 @@ const Skills = () => {
             <div className="flex-1">
               <div>
                 {skills.map((service, index) => {
-                  const { name, description, link } = service;
+                  const { name, description } = service;
                   return (
                     <div
-                      className="border-b border-white/20 h-[146px] mb-[38px] flex "
+                      className="border-b border-white/20 h-[146px] flex "
                       key={index}
                     >
                       <div className="max-w-[476px]">
@@ -70,17 +68,6 @@ const Skills = () => {
                         >
                           {description}
                         </p>
-                      </div>
-                      <div className="flex flex-col flex-1 items-end">
-                        <a
-                          href="#"
-                          className="btn w-9 h-9 mb-[12px] flex items-center justify-center"
-                        >
-                          <BsArrowUpRight />
-                        </a>
-                        <a href="#" className="text-gradient small">
-                          {link}
-                        </a>
                       </div>
                     </div>
                   );

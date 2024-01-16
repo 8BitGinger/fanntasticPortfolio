@@ -3,7 +3,12 @@ import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import { GiFootprint } from 'react-icons/gi';
+import song from '../assets/rockNroll.mp3';
+
+function playSound() {
+  var sound = new Audio(song);
+  sound.play();
+}
 
 const Nav = () => {
   return (
@@ -15,6 +20,7 @@ const Nav = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+            onClick={playSound()}
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiHomeAlt />

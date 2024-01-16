@@ -103,6 +103,11 @@
   margin-right: 35px;
 }
 
+.avatar2 {
+  animation: spin 6s infinite;
+  animation-timing-function: ease-in-out;
+}
+
 @keyframes grow-and-shrink {
   0% {
     transform: scale(1.8);

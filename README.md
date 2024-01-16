@@ -13,19 +13,11 @@ A portfolio built using React to showcase my latest projects and ideas in Web De
 
 ## Table of Contents
 
-1. [Credits](#Credits)
-2. [Screenshots](#screenshot)
-3. [License](#license)
-4. [Links](#links)
+1. [Screenshots](#screenshot)
+2. [License](#license)
+3. [Links](#links)
+4. [Credits](#credits)
 5. [Questions](#support)
-
----
-
-<a id="credits"></a>
-
-## Credits
-
-Inspired by this tutorial: https://www.youtube.com/watch?v=Hps-XPN1GeE
 
 ---
 
@@ -59,6 +51,14 @@ https://github.com/8BitGinger/fanntasticPortfolio
 https://8bitginger.github.io/fanntasticPortfolio/
 
 <a id="support"></a>
+
+---
+
+<a id="credits"></a>
+
+## Credits
+
+Inspired by this tutorial: https://www.youtube.com/watch?v=Hps-XPN1GeE
 
 ---
 

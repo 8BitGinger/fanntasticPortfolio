@@ -16,8 +16,8 @@ const Contact = () => {
         viewport={{ once: false, amount: 0.7 }}
         className="container mx-auto"
       >
-        <div className="flex lg:flex-row">
-          <div className="flex-1 flex flex-col lg:flex-row ">
+        <div className=" flex lg:flex-row flex:col">
+          <div className="flex-1 flex lg:flex-row flex-col ">
             <div>
               <h2 className="text-gradient text-3xl leading-tight mb-6">
                 Contact Me.
@@ -28,7 +28,11 @@ const Contact = () => {
                 out the form below and I will get back to you as soon as
                 possible.
               </p>
-              <img className=" w-64 " src={contactMe} alt="screenshot" />
+              <img
+                className=" w-64  hidden avatar2 lg:flex flex-1 max-w-[220px] lg:max-w-[262px] mx-auto"
+                src={contactMe}
+                alt="screenshot"
+              />
             </div>
             <form className="flex-1 justify-center items-center text-center">
               <input
@@ -38,7 +42,7 @@ const Contact = () => {
               />
               <input
                 className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
-                type="type"
+                type="email"
                 placeholder="Your Email"
               />
               <textarea

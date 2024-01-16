@@ -13,7 +13,13 @@ const Footer = () => {
       className="container mx-auto footer flex flex-row    justify-center gap-x-8 lg:gap-x-16 mb-60"
     >
       <h3>View more here:</h3>
-      <div className="flex text-[60px] gap-x-6 max-w-max mx-auto lg:mx-0 justify-center text-4xl">
+      <motion.div
+        variants={fadeIn('up', 0.3)}
+        initial="hidden"
+        whileInView={'show'}
+        viewport={{ once: false, amount: 0.5 }}
+        className="flex text-[60px] gap-x-6 max-w-max mx-auto lg:mx-0 justify-center text-4xl"
+      >
         <a className="icons" href="https://github.com/8BitGinger">
           <FaGithub />
         </a>
@@ -23,7 +29,7 @@ const Footer = () => {
         <a className="icons" href="https://www.linkedin.com/in/ryanfanntastic/">
           <FaLinkedinIn />
         </a>
-      </div>
+      </motion.div>
     </section>
   );
 };

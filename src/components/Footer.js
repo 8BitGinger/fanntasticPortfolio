@@ -8,18 +8,8 @@ import { fadeIn } from '../variants';
 
 const Footer = () => {
   return (
-    <section
-      id="footer"
-      className="container mx-auto footer flex flex-row    justify-center gap-x-8 lg:gap-x-16 mb-60"
-    >
-      <h3>View more here:</h3>
-      <motion.div
-        variants={fadeIn('up', 0.3)}
-        initial="hidden"
-        whileInView={'show'}
-        viewport={{ once: false, amount: 0.5 }}
-        className="flex text-[60px] gap-x-6 max-w-max mx-auto lg:mx-0 justify-center text-4xl"
-      >
+    <section id="footer" className="container footer mx-auto     ">
+      <div className="footlink flex w-fit bg-black/20 backdrop-blur-2xl justify-center flex-row">
         <a className="icons" href="https://github.com/8BitGinger">
           <FaGithub />
         </a>
@@ -29,7 +19,7 @@ const Footer = () => {
         <a className="icons" href="https://www.linkedin.com/in/ryanfanntastic/">
           <FaLinkedinIn />
         </a>
-      </motion.div>
+      </div>
     </section>
   );
 };

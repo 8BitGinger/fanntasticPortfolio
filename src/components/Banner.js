@@ -12,7 +12,7 @@ import { fadeIn } from '../variants';
 const Banner = () => {
   return (
     <section
-      className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
+      className="min-h-[85vh] mt-20 lg:min-h-[78vh] flex items-center"
       id="home"
     >
       <div className="container mx-auto mt-7">
@@ -74,26 +74,6 @@ const Banner = () => {
                 </a>
                 <a href="#contact">
                   <button className="btn btn-sm">Work with me</button>
-                </a>
-              </motion.div>
-              <motion.div
-                variants={fadeIn('up', 0.3)}
-                initial="hidden"
-                whileInView={'show'}
-                viewport={{ once: false, amount: 0.5 }}
-                className="flex text-[40px] gap-x-6 max-w-max mx-auto lg:mx-0 justify-center text-4xl"
-              >
-                <a className="icons" href="https://github.com/8BitGinger">
-                  <FaGithub />
-                </a>
-                <a className="icons" href="https://facebook.com/ryanfann">
-                  <FaFacebookF />
-                </a>
-                <a
-                  className="icons"
-                  href="https://www.linkedin.com/in/ryanfanntastic/"
-                >
-                  <FaLinkedinIn />
                 </a>
               </motion.div>
             </motion.div>

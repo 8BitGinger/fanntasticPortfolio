@@ -51,7 +51,7 @@ const Contact = () => {
               ></textarea>
               <button
                 type="submit"
-                className="btn btn-round-2 mt-3 w-fit uppercase"
+                className="btn btn-round-2 mt-3 mb-20 w-fit uppercase"
               >
                 <a href="mailto: ryan.fann@gmail.com?subject=Nice Portfolio">
                   Submit

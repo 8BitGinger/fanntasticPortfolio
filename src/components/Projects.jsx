@@ -10,7 +10,7 @@ import Img4 from '../assets/javaquizScreenshot.jpg';
 import Img5 from '../assets/noteTaker-double-screenshot.png';
 import Img6 from '../assets/Weather-Live-Screenshot.png';
 
-const Work = () => {
+const Projects = () => {
   return (
     <section className="section mt-20" id="work">
       <div className="container mx-auto>">
@@ -201,4 +201,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

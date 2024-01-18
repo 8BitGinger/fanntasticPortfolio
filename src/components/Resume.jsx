@@ -5,6 +5,8 @@ import { fadeIn } from '../variants';
 
 import imgSkill from '../assets/services.png';
 
+import ResumeDoc from '../assets/files/devResume-v3-2024.pdf';
+
 const skills = [
   {
     name: 'HTML & CSS',
@@ -31,7 +33,7 @@ const skills = [
   },
 ];
 
-const Skills = () => {
+const Resume = () => {
   return (
     <section className="section mt-20 mb-40" id="skills">
       <div className="container mx-auto">
@@ -41,11 +43,11 @@ const Skills = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1  mb-12 h-[70vh]"
+            className="flex-1 mb-12 lg:w-1/3"
           >
-            <a href="#work">
-              <button className="btn btn-round">
-                See<br></br> My <br></br>Work
+            <a href={ResumeDoc} download="MyResume" target="_blank">
+              <button className="btn text-sm btn-round">
+                Download<br></br>Resume
               </button>
             </a>
             <img className="services" alt="round skills" src={imgSkill}></img>
@@ -55,8 +57,9 @@ const Skills = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
+            className="lg:w-2/3"
           >
-            <h2 className="text-gradient mt-4 text-3xl">Key Skills.</h2>
+            <h2 className="text-gradient mt-4 text-3xl">Resume & Skills.</h2>
             <div className="flex-1">
               <div>
                 {skills.map((service, index) => {
@@ -89,4 +92,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Resume;

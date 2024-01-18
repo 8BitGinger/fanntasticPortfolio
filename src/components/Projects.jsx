@@ -63,14 +63,6 @@ const Projects = () => {
                 <span className="text-1xl text-white">
                   Collobrative Project
                 </span>
-                <a
-                  className="icon"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/jameslwilson364/weeklyMoodal"
-                >
-                  <FaGithub />
-                </a>
               </div>
             </motion.div>
             <motion.div
@@ -99,14 +91,6 @@ const Projects = () => {
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-1xl text-white">BackEnd CRM</span>
-                <a
-                  className="icon"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/8BitGinger/workforceManager"
-                >
-                  <FaGithub />
-                </a>
               </div>
             </motion.div>
             <motion.div
@@ -133,14 +117,6 @@ const Projects = () => {
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-1xl text-white">Node.js </span>
-                <a
-                  className="icon"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/8BitGinger/readmeMaker"
-                >
-                  <FaGithub />
-                </a>
               </div>
             </motion.div>
             <motion.div
@@ -167,14 +143,6 @@ const Projects = () => {
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-1xl text-white">JavaScript</span>
-                <a
-                  className="icon"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/8BitGinger/javaquiz"
-                >
-                  <FaGithub />
-                </a>
               </div>
             </motion.div>
             <motion.div
@@ -201,14 +169,6 @@ const Projects = () => {
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-1xl text-white">Express.js</span>
-                <a
-                  className="icon"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/8BitGinger/noteTaker"
-                >
-                  <FaGithub />
-                </a>
               </div>
             </motion.div>
             <motion.div
@@ -235,14 +195,6 @@ const Projects = () => {
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-1xl text-white">3rd Party API</span>
-                <a
-                  className="icon"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://github.com/8BitGinger/WeatherDashboard"
-                >
-                  <FaGithub />
-                </a>
               </div>
             </motion.div>
           </div>

@@ -66,6 +66,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/jameslwilson364/weeklyMoodal"
                 >
                   <FaGithub />
@@ -101,6 +102,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/8BitGinger/workforceManager"
                 >
                   <FaGithub />
@@ -134,6 +136,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/8BitGinger/readmeMaker"
                 >
                   <FaGithub />
@@ -167,6 +170,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/8BitGinger/javaquiz"
                 >
                   <FaGithub />
@@ -200,6 +204,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/8BitGinger/noteTaker"
                 >
                   <FaGithub />
@@ -233,6 +238,7 @@ const Projects = () => {
                 <a
                   className="icon"
                   target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/8BitGinger/WeatherDashboard"
                 >
                   <FaGithub />

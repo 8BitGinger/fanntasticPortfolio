@@ -112,6 +112,16 @@
   padding: 10px;
 }
 
+.icon {
+  font-size: 25px;
+  text-align: center;
+}
+
+.icon:hover {
+  color: rgb(255, 159, 4);
+  scale: 1.2;
+}
+
 .icons:hover {
   color: rgb(255, 159, 4);
   scale: 1.3;

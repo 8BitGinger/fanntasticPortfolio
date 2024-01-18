@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
 
+import { FaGithub } from 'react-icons/fa';
+
 import Img1 from '../assets/modal-screenshot.png';
 import Img2 from '../assets/logo-screenshot.png';
 import Img3 from '../assets/readMe-Screenshot.png';
@@ -31,20 +33,20 @@ const Projects = () => {
               currently looking to launch a career in Web Development.
             </p>
           </motion.div>
-          <div className="flex-1 flex lg:flex-row flex-wrap flex-col gap-x-3 gap-y-3">
+          <div className="flex-1  flex lg:flex-row flex-wrap flex-col gap-x-3 gap-y-3">
             <motion.div
               variants={fadeIn('up', 0.3)}
               initial="hidden"
               whileInView={'show'}
               viewport={{ once: false, amount: 0.3 }}
-              className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/4   h-60"
+              className="group relative  overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/4   h-60"
             >
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://jameslwilson364.github.io/weeklyMoodal/"
               >
-                <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+                <div className="group-hover:bg-black/70 w-full  h-full absolute z-40 transition-all duration-300"></div>
 
                 <img
                   className="group-hover:scale-125 transition-all duration-500 h-full w-full"
@@ -53,12 +55,21 @@ const Projects = () => {
                 />
               </a>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient text-2xl">Weekly Moodal </span>
+                <span className="text-gradient mb-2 text-2xl">
+                  Weekly Moodal
+                </span>
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-1xl text-white">
-                  Collobrative Project 😀
+                  Collobrative Project
                 </span>
+                <a
+                  className="icon"
+                  target="_blank"
+                  href="https://github.com/jameslwilson364/weeklyMoodal"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </motion.div>
             <motion.div
@@ -82,11 +93,18 @@ const Projects = () => {
               </a>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="text-gradient text-2xl">
-                  Workforce Manager{' '}
+                  Workforce Manager
                 </span>
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-1xl text-white">BackEnd CRM 🤖</span>
+                <span className="text-1xl text-white">BackEnd CRM</span>
+                <a
+                  className="icon"
+                  target="_blank"
+                  href="https://github.com/8BitGinger/workforceManager"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </motion.div>
             <motion.div
@@ -112,7 +130,14 @@ const Projects = () => {
                 <span className="text-gradient text-2xl">ReadMe Maker </span>
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-1xl text-white">Node.js 📰</span>
+                <span className="text-1xl text-white">Node.js </span>
+                <a
+                  className="icon"
+                  target="_blank"
+                  href="https://github.com/8BitGinger/readmeMaker"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </motion.div>
             <motion.div
@@ -138,7 +163,14 @@ const Projects = () => {
                 <span className="text-gradient text-2xl">JS Coding Quiz </span>
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-1xl text-white">JavaScript ✅</span>
+                <span className="text-1xl text-white">JavaScript</span>
+                <a
+                  className="icon"
+                  target="_blank"
+                  href="https://github.com/8BitGinger/javaquiz"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </motion.div>
             <motion.div
@@ -164,7 +196,14 @@ const Projects = () => {
                 <span className="text-gradient text-2xl">Note Taker </span>
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-1xl text-white">Express.js 📝</span>
+                <span className="text-1xl text-white">Express.js</span>
+                <a
+                  className="icon"
+                  target="_blank"
+                  href="https://github.com/8BitGinger/noteTaker"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </motion.div>
             <motion.div
@@ -190,7 +229,14 @@ const Projects = () => {
                 <span className="text-gradient text-2xl">5 Day Forecast </span>
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-1xl text-white">3rd Party API ⛅</span>
+                <span className="text-1xl text-white">3rd Party API</span>
+                <a
+                  className="icon"
+                  target="_blank"
+                  href="https://github.com/8BitGinger/WeatherDashboard"
+                >
+                  <FaGithub />
+                </a>
               </div>
             </motion.div>
           </div>

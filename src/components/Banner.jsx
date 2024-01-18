@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useState, useEffect } from 'react';
 import Image from '../assets/8bit-avatar-noBG.png';
 
 import { TypeAnimation } from 'react-type-animation';
@@ -7,7 +7,15 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
 
+import sound from '../assets/rockNroll.mp3';
+
 const Banner = () => {
+  function play() {
+    const song = new Audio(sound);
+    song.volume = 0.4;
+    song.play();
+  }
+
   return (
     <section
       className="min-h-[85vh] mt-20 lg:min-h-[78vh] flex items-center"
@@ -68,10 +76,14 @@ const Banner = () => {
                 className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
               >
                 <a href="#work">
-                  <button className="btn btn-sm">My Portfolio</button>
+                  <button onClick={play} className="btn btn-sm">
+                    My Portfolio
+                  </button>
                 </a>
                 <a href="#contact">
-                  <button className="btn btn-sm">Work with me</button>
+                  <button onClick={play} className="btn btn-sm">
+                    Work with me
+                  </button>
                 </a>
               </motion.div>
             </motion.div>

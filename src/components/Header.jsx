@@ -24,7 +24,7 @@ const Header = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
+            className="cursor-pointer text-center navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiUser />
           </Link>

@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.33de66df.css",
-    "main.js": "/static/js/main.921e2fc8.js",
+    "main.css": "/static/css/main.fb6b30ae.css",
+    "main.js": "/static/js/main.1b77369b.js",
+    "static/media/devResume-v3-2024.pdf": "/static/media/devResume-v3-2024.d4d5e2dd0424c9dce1fd.pdf",
     "static/media/Weather-Live-Screenshot.png": "/static/media/Weather-Live-Screenshot.1386b9d59839e0bb997e.png",
     "static/media/noteTaker-double-screenshot.png": "/static/media/noteTaker-double-screenshot.79d1cc660c48181a710b.png",
     "static/media/javaquizScreenshot.jpg": "/static/media/javaquizScreenshot.384f5a858bc7a8efee87.jpg",
     "static/media/modal-screenshot.png": "/static/media/modal-screenshot.7a276e80a3e420f1a6ba.png",
-    "static/media/about.png": "/static/media/about.5ccc624139d4839b7e1c.png",
     "static/media/readMe-Screenshot.png": "/static/media/readMe-Screenshot.1bfd48679d4d0b1d5b2c.png",
+    "static/media/about.png": "/static/media/about.3e6cfce4c3b3407476c6.png",
+    "static/media/rockNroll.mp3": "/static/media/rockNroll.a24f304794962e1abdc7.mp3",
     "static/media/site-bg.jpg": "/static/media/site-bg.a4e142aa3efafb53d9f3.jpg",
     "static/media/services.png": "/static/media/services.00586882d102bd591b26.png",
     "static/media/contact.png": "/static/media/contact.d3ec00c3bf89462420dc.png",
     "static/media/logo-screenshot.png": "/static/media/logo-screenshot.6de5456942249cdaf3fd.png",
     "index.html": "/index.html",
-    "main.33de66df.css.map": "/static/css/main.33de66df.css.map",
-    "main.921e2fc8.js.map": "/static/js/main.921e2fc8.js.map"
+    "main.fb6b30ae.css.map": "/static/css/main.fb6b30ae.css.map",
+    "main.1b77369b.js.map": "/static/js/main.1b77369b.js.map"
   },
   "entrypoints": [
-    "static/css/main.33de66df.css",
-    "static/js/main.921e2fc8.js"
+    "static/css/main.fb6b30ae.css",
+    "static/js/main.1b77369b.js"
   ]
 }

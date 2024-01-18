@@ -1,6 +1,6 @@
 import { React, useRef } from 'react';
 
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 import { motion } from 'framer-motion';
 
@@ -9,29 +9,29 @@ import { fadeIn } from '../variants';
 import contactMe from '../assets/contact.png';
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        'service_u0fh5w4',
-        'template_bwz8st7',
-        form.current,
-        'Txd72rWStgp3ny90c'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert('Message Sent!');
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  };
+  //   emailjs
+  //     .sendForm(
+  //       'service_u0fh5w4',
+  //       'template_bwz8st7',
+  //       form.current,
+  //       'Txd72rWStgp3ny90c'
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         alert('Message Sent!');
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  //   e.target.reset();
+  // };
   return (
     <section className="py-16 lg:section" id="contact">
       <motion.div
@@ -60,8 +60,8 @@ const Contact = () => {
               />
             </div>
             <form
-              ref={form}
-              onSubmit={sendEmail}
+              // ref={form}
+              // onSubmit={sendEmail}
               className="flex-1 justify-center items-center text-center"
             >
               <input

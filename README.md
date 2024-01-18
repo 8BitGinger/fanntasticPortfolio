@@ -26,7 +26,10 @@ A portfolio built using React to showcase my latest projects and ideas in Web De
 ## Screenshots
 
 ![screenshot](./src/assets/screenshot-fanntasticportfolio.png)
+![screenshot](./src/assets/screenshot-fanntasticportfolio3.png)
 ![screenshot](./src/assets/screenshot-fanntasticportfolio2.png)
+![screenshot](./src/assets/screenshot-fanntasticportfolio4.png)
+![screenshot](./src/assets/screenshot-fanntasticportfolio5.png)
 
 ---
 
@@ -48,7 +51,7 @@ https://github.com/8BitGinger/fanntasticPortfolio
 
 ### Deployed Link:
 
-https://8bitginger.github.io/fanntasticPortfolio/
+https://ryanfann.netlify.app/
 
 <a id="support"></a>
 

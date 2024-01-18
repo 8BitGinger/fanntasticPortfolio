@@ -27,7 +27,7 @@ const skills = [
   {
     name: 'MySQL and MongoDB',
     description:
-      'Databases are the backbone of any website. I have a strong understanding of both MySQL and MongoDB as well as some others and can create and manage databases for any website.',
+      'Databases are the backbone of any website. I have a strong understanding of both MySQL and MongoDB as well as some others and can create and manage databases for many websites.',
   },
 ];
 

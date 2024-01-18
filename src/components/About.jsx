@@ -50,7 +50,7 @@ const About = () => {
         className="m-5 flex justify-between items-center"
       >
         <img
-          className="services mix-blend-lighten"
+          className="headshot mix-blend-lighten"
           alt="headshot"
           src={aboutImg}
         ></img>

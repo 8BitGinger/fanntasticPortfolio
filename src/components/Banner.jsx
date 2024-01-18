@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from '../assets/8bit-avatar-noBG.png';
 
-import { FaGithub, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
-
 import { TypeAnimation } from 'react-type-animation';
 
 import { motion } from 'framer-motion';

@@ -3,6 +3,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
+import imgSkill from '../assets/services.png';
+
 const skills = [
   {
     name: 'HTML & CSS',
@@ -39,13 +41,14 @@ const Skills = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 h-[70vh]"
+            className="flex-1  mb-12 h-[70vh]"
           >
-            <button className="btn btn-round">
-              <a href="#work">
+            <a href="#work">
+              <button className="btn btn-round">
                 See<br></br> My <br></br>Work
-              </a>
-            </button>
+              </button>
+            </a>
+            <img className="services" alt="round skills" src={imgSkill}></img>
           </motion.div>
           <motion.div
             variants={fadeIn('down', 0.5)}
@@ -53,14 +56,14 @@ const Skills = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
           >
-            <h2 className="text-gradient text-3xl">Key Skills.</h2>
+            <h2 className="text-gradient mt-4 text-3xl">Key Skills.</h2>
             <div className="flex-1">
               <div>
                 {skills.map((service, index) => {
                   const { name, description } = service;
                   return (
                     <div
-                      className="border-b border-white/20 h-fit flex "
+                      className="border-b border-white/20 mr-6 h-fit flex "
                       key={index}
                     >
                       <div className="max-w-[476px]">

@@ -45,7 +45,12 @@ const Resume = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 mb-12 lg:w-1/3"
           >
-            <a href={ResumeDoc} download="MyResume" target="_blank">
+            <a
+              href={ResumeDoc}
+              rel="noreferrer"
+              download="MyResume"
+              target="_blank"
+            >
               <button className="btn text-sm btn-round">
                 Download<br></br>Resume
               </button>

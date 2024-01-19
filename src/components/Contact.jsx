@@ -63,7 +63,6 @@ const Contact = () => {
 
               <button
                 type="submit"
-                onClick={ConfettiExplosion}
                 className="btn btn-round-2 mt-3 mb-20 w-fit uppercase"
               >
                 Submit

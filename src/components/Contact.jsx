@@ -1,6 +1,6 @@
 import { React, useRef } from 'react';
 
-// import emailjs from '@emailjs/browser';
+import ConfettiExplosion from 'react-confetti-explosion';
 
 import { motion } from 'framer-motion';
 
@@ -9,29 +9,6 @@ import { fadeIn } from '../variants';
 import contactMe from '../assets/contact.png';
 
 const Contact = () => {
-  // const form = useRef();
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .sendForm(
-  //       'service_u0fh5w4',
-  //       'template_bwz8st7',
-  //       form.current,
-  //       'Txd72rWStgp3ny90c'
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         alert('Message Sent!');
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  //   e.target.reset();
-  // };
   return (
     <section className="py-16 lg:section" id="contact">
       <motion.div
@@ -60,9 +37,8 @@ const Contact = () => {
               />
             </div>
             <form
-              // ref={form}
-              // onSubmit={sendEmail}
-              className="flex-1 justify-center items-center text-center"
+              data-netlify="true"
+              className=" flex-1 justify-center items-center text-center"
             >
               <input
                 className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
@@ -87,6 +63,7 @@ const Contact = () => {
 
               <button
                 type="submit"
+                onClick={ConfettiExplosion}
                 className="btn btn-round-2 mt-3 mb-20 w-fit uppercase"
               >
                 Submit

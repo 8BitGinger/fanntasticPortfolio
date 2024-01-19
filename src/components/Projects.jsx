@@ -24,7 +24,7 @@ const Projects = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="flex flex-col"
           >
-            <h2 className="text-gradient text-3xl leading-tight mt-50">
+            <h2 className="text-gradient w-fit text-3xl leading-tight mt-50">
               My Portfolio.
             </h2>
             <p className=" max-w-lg mt-6 mb-12 ">

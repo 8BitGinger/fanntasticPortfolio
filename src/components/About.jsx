@@ -24,7 +24,9 @@ const About = () => {
         <div className="lg:flex-row flex-col flex">
           <div className="flex-1  round bg-about bgcontain bg-no-repeat h-[430px] mix-blend-lighten bg-top w-1/3"></div>
           <div className="lg:w-2/3 mt-4 mx-auto">
-            <h2 className="text-gradient mb-6 ml-3 text-3xl">About Me.</h2>
+            <h2 className="text-gradient mb-6 ml-3 w-fit text-3xl">
+              About Me.
+            </h2>
             <p className="m-5 lg:text-2xl">
               In a nutshell, I can build a site from the ground up with using
               HTML5, CSS, JavaScript, and React for a beautiful and modern Front
@@ -50,7 +52,7 @@ const About = () => {
         className="m-5 flex justify-between items-center"
       >
         <img
-          className="headshot mix-blend-lighten"
+          className=" headshot mix-blend-lighten"
           alt="headshot"
           src={aboutImg}
         ></img>

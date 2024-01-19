@@ -39,32 +39,15 @@ const Resume = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <motion.div
-            variants={fadeIn('up', 0.5)}
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 mb-12 lg:w-1/3"
-          >
-            <a
-              href={ResumeDoc}
-              rel="noreferrer"
-              download="MyResume"
-              target="_blank"
-            >
-              <button className="btn text-sm btn-round">
-                Download<br></br>Resume
-              </button>
-            </a>
-            <img className="services" alt="round skills" src={imgSkill}></img>
-          </motion.div>
-          <motion.div
             variants={fadeIn('down', 0.5)}
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
             className="lg:w-2/3"
           >
-            <h2 className="text-gradient mt-4 text-3xl">Resume & Skills.</h2>
+            <h2 className="text-gradient w-fit mt-4 text-3xl">
+              Resume & Skills.
+            </h2>
             <div className="flex-1">
               <div>
                 {skills.map((service, index) => {
@@ -90,6 +73,29 @@ const Resume = () => {
                 })}
               </div>
             </div>
+          </motion.div>
+          <motion.div
+            variants={fadeIn('up', 0.5)}
+            initial="hidden"
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3 }}
+            className="flex-1 mb-12 lg:w-1/3"
+          >
+            <a
+              href={ResumeDoc}
+              rel="noreferrer"
+              download="MyResume"
+              target="_blank"
+            >
+              <button className="btn text-sm btn-round">
+                Download<br></br>Resume
+              </button>
+            </a>
+            <img
+              className="services coder"
+              alt="round skills"
+              src={imgSkill}
+            ></img>
           </motion.div>
         </div>
       </div>

@@ -34,9 +34,9 @@ const About = () => {
             </p>
             <p className="m-5 lg:text-2xl">
               When I'm not coding I love to spend time with my amazing
-              girlfriend Adrian, energetic bird Brody and loyal dog Jax. I enjoy
-              playing video games on my Xbox, Vibing to some Apple Music, and
-              streaming my favorite classic Sci-Fi shows!
+              girlfriend Adrian and our awesome Pets. I enjoy playing video
+              games on my Xbox, Vibing to some new Music, and streaming my
+              favorite classic Sci-Fi shows!
             </p>
           </div>
         </div>

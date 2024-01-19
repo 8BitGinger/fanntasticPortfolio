@@ -1,7 +1,5 @@
 import { React, useRef } from 'react';
 
-import ConfettiExplosion from 'react-confetti-explosion';
-
 import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
@@ -63,7 +61,6 @@ const Contact = () => {
 
               <button
                 type="submit"
-                onClick={ConfettiExplosion}
                 className="btn btn-round-2 mt-3 mb-20 w-fit uppercase"
               >
                 Submit

@@ -1,7 +1,5 @@
 import { React, useRef } from 'react';
 
-import ConfettiExplosion from 'react-confetti-explosion';
-
 import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';

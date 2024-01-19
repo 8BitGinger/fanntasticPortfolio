@@ -19,7 +19,7 @@ const Contact = () => {
         <div className=" flex lg:flex-row flex:col">
           <div className="flex-1 flex lg:flex-row flex-col ">
             <div>
-              <h2 className="text-gradient text-3xl leading-tight mb-6">
+              <h2 className="text-gradient w-fit text-3xl leading-tight mb-6">
                 Contact Me.
               </h2>
               <p className="max-w-lg mb-12 m-6">
@@ -35,7 +35,7 @@ const Contact = () => {
               />
             </div>
             <form
-              data-netlify="true"
+              netflify
               className=" flex-1 justify-center items-center text-center"
             >
               <input

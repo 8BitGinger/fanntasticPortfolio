@@ -18,7 +18,7 @@ const Footer = () => {
           className="container mx-auto"
         >
           <div className="footlink flex w-fit bg-black/20 backdrop-blur-2xl justify-center flex-row">
-            <a className="icons" href="https://github.com/8BitGinger">
+            <a className="icons " href="https://github.com/8BitGinger">
               <FaGithub />
             </a>
             <a className="icons" href="https://facebook.com/ryanfann">

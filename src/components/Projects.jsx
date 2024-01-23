@@ -14,15 +14,15 @@ import Img6 from '../assets/Weather-Live-Screenshot.png';
 
 const Projects = () => {
   return (
-    <section className="section mt-20" id="work">
-      <div className="container mx-auto>">
+    <section className="section flex justify-center" id="work">
+      <div className="container w-fit mx-auto>">
         <div className="project">
           <motion.div
             variants={fadeIn('left', 0.3)}
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex flex-col"
+            className="flex w-1/2 flex-col"
           >
             <h2 className="text-gradient w-fit text-3xl leading-tight mt-50">
               My Portfolio.
@@ -33,7 +33,7 @@ const Projects = () => {
               currently looking to launch a career in Web Development.
             </p>
           </motion.div>
-          <div className="flex-1  flex lg:flex-row flex-wrap flex-col gap-x-3 gap-y-3">
+          <div className="flex-1 w-full  flex lg:flex-row flex-wrap flex-col gap-x-3 gap-y-3">
             <motion.div
               variants={fadeIn('up', 0.3)}
               initial="hidden"

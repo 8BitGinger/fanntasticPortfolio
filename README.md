@@ -28,7 +28,7 @@ A portfolio built using React to showcase my latest projects and ideas in Web De
 ![screenshot](./src/assets/screenshot-fanntasticportfolio.png)
 ![screenshot](./src/assets/screenshot-fanntasticportfolio3.png)
 ![screenshot](./src/assets/screenshot-fanntasticportfolio2.png)
-![screenshot](./src/assets/screenshot-fanntasticportfolio4.png)
+![screenshot](./src/assets/screenshot-work.png)
 ![screenshot](./src/assets/screenshot-fanntasticportfolio5.png)
 
 ---

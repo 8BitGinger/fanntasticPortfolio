@@ -35,7 +35,7 @@ const Contact = () => {
               />
             </div>
             <form
-              netflify
+              
               className=" flex-1 justify-center items-center text-center"
             >
               <input

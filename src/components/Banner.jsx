@@ -65,7 +65,7 @@ const Banner = () => {
                 className="mb-8 mt-8 max-w-lg lg:mx-0 text-2xl"
               >
                 Being a Full Stack Web Developer allows me to harness the best
-                of both Front End and Back End development to create soemthing
+                of both Front End and Back End development to create something
                 new, dynamic, and exciting!
               </motion.p>
               <motion.div

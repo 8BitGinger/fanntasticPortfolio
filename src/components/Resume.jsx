@@ -9,27 +9,52 @@ import ResumeDoc from '../assets/files/devResume-v3-2024.pdf';
 
 const skills = [
   {
-    name: 'HTML & CSS',
-    description:
-      'HTML and CSS are the foundation of any website. I have a strong understanding of both and can create a beautiful and responsive website from scratch.',
-    link: 'Learn More',
+    name: 'HTML',
+    category: 'Front-End',
+  },
+  {
+    name: 'CSS',
+    category: 'Front-End',
   },
   {
     name: 'JavaScript',
-    description:
-      'JavaScript is the language of the web. I have a strong understanding of JavaScript and can create dynamic and interactive websites.',
-    link: 'Learn More',
+    category: 'Front-End',
   },
   {
     name: 'React',
-    description:
-      'React is a powerful JavaScript library that allows you to create dynamic and responsive websites. I have a strong understanding of React and passion for learning even more',
-    link: 'Learn More',
+    category: 'Front-End',
   },
   {
-    name: 'MySQL and MongoDB',
-    description:
-      'Databases are the backbone of any website. I have a strong understanding of both MySQL and MongoDB as well as some others and can create and manage databases for many websites.',
+    name: 'MySQL',
+    category: 'Back-End',
+  },
+  {
+    name: 'Sequelize',
+    category: 'Back-End',
+  },
+  {
+    name: 'APIs',
+    category: 'Back-End',
+  },
+  {
+    name: 'Node',
+    category: 'Back-End',
+  },
+  {
+    name: 'Express',
+    category: 'Back-End',
+  },
+  {
+    name: 'jQuery',
+    category: 'Front-End',
+  },
+  {
+    name: 'Tailwind',
+    category: 'Front-End',
+  },
+  {
+    name: 'Bootstrap',
+    category: 'Front-End',
   },
 ];
 
@@ -43,34 +68,37 @@ const Resume = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="lg:w-2/3"
+            className="lg:w-1/2 justify-center flex  align-center"
           >
-            <h2 className="text-gradient w-fit mt-4 text-3xl">
-              Resume & Skills.
-            </h2>
-            <div className="flex-1">
-              <div>
-                {skills.map((service, index) => {
-                  const { name, description } = service;
-                  return (
-                    <div
-                      className="border-b border-white/20 mr-6 h-fit flex "
-                      key={index}
-                    >
-                      <div className="max-w-[476px]">
-                        <h4 className="text-[20px] tracking wider font-primary font-semibold">
-                          {name}
-                        </h4>
-                        <p
-                          id="description"
-                          className="font-secondary mb-2 leading-tight"
-                        >
-                          {description}
-                        </p>
+            <div>
+              <h2 className="text-gradient w-fit mt-4 text-3xl">
+                Resume & Skills.
+              </h2>
+              <div className="flex-1">
+                <div className="w-fit">
+                  {skills.map((service, index) => {
+                    const { name, category } = service;
+                    return (
+                      <div
+                        className="border-b border-white/20 mr-6 h-fit flex "
+                        key={index}
+                      >
+                        <div className="max-w-[476px]">
+                          <ul>
+                            <li className="flex skillItem flex-row">
+                              <h4 className="text-2xl mr-20 font-primary">
+                                {name}
+                              </h4>
+                              <h4 className="text-gradient opacity-60 text-1xl;">
+                                {category}
+                              </h4>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
-                    </div>
-                  );
-                })}
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </motion.div>
@@ -79,7 +107,7 @@ const Resume = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 mb-12 lg:w-1/3"
+            className="flex-1 mb-12 lg:w-1/2"
           >
             <a
               href={ResumeDoc}

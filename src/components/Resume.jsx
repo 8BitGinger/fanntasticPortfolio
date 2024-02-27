@@ -71,7 +71,7 @@ const Resume = () => {
             className="lg:w-1/2 justify-center flex  align-center"
           >
             <div>
-              <h2 className="text-gradient w-fit mt-4 text-3xl">
+              <h2 className="text-gradient w-fit mt-10 text-3xl">
                 Resume & Skills.
               </h2>
               <div className="flex-1">

@@ -12,6 +12,7 @@ const Contact = () => {
   const [state, handleSubmit, reset] = useForm('mjvnrreq');
 
   if (state.succeeded) {
+    window.location.reload();
     return <p className="pop-up">Thanks for reaching out!</p>;
   } else {
     if (state.errors) {

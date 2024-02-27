@@ -176,6 +176,49 @@
   animation: skew-x-shakeng 6000ms infinite;
 }
 
+.pop-up {
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.btn:disabled {
+  background: gray;
+  opacity: 0.3;
+}
+
+.ReactModal__Content {
+  background: #fff;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.btn2 {
+  background: linear-gradient(
+    92.23deg,
+    #f4671b 21.43%,
+    #f09308 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  border: 1px solid rgba(0, 0, 0, 0.441);
+  box-shadow: 0px 4.42184px 22.23px rgba(253, 255, 128, 0.628);
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
 @keyframes skew-x-shakeng {
   0% {
     transform: skewX(-15deg);
@@ -301,5 +344,25 @@
   .headshot {
     display: block;
     margin-top: -65px;
+  }
+
+  .text-2xl {
+    font-size: 18px;
+  }
+
+  .skillItem {
+    font-size: 12px;
+  }
+
+  .project {
+    margin-top: -50px;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .contact-adj {
+    margin-top: 20px;
   }
 }

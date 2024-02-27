@@ -24,7 +24,7 @@ const About = () => {
         <div className="lg:flex-row flex-col flex">
           <div className="flex-1  round bg-about bgcontain bg-no-repeat h-[430px] mix-blend-lighten bg-top w-1/3"></div>
           <div className="lg:w-2/3 mt-4 mx-auto">
-            <h2 className="text-gradient mb-6 ml-3 w-fit text-3xl">
+            <h2 className="text-gradient mb-6 mt-8 ml-3 w-fit text-3xl">
               About Me.
             </h2>
             <p className="m-5 lg:text-2xl">

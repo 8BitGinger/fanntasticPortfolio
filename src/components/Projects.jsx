@@ -10,7 +10,7 @@ import Img2 from '../assets/logo-screenshot.png';
 import Img3 from '../assets/readMe-Screenshot.png';
 import Img4 from '../assets/javaquizScreenshot.jpg';
 import Img5 from '../assets/noteTaker-double-screenshot.png';
-import Img6 from '../assets/Weather-Live-Screenshot.png';
+import Img6 from '../assets/socialEyes.png';
 
 const Projects = () => {
   return (
@@ -231,15 +231,15 @@ const Projects = () => {
                 />
               </a>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient text-2xl">5 Day Forecast </span>
+                <span className="text-gradient text-2xl">Social Eyes </span>
               </div>
               <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-1xl text-white">3rd Party API</span>
+                <span className="text-1xl text-white">Final Project</span>
                 <a
                   className="icon"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/8BitGinger/WeatherDashboard"
+                  href="https://github.com/8BitGinger/antiSocialMedia"
                 >
                   <FaGithub />
                 </a>

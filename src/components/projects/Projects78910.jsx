@@ -9,7 +9,7 @@ import Img10 from '../../assets/ticTacTypescript.png';
 
 const title7 = 'Workforce Manager';
 const subtitle7 = 'BackEnd CRM';
-const link7 = 'https://8bitginger.github.io/workforceManager/';
+const link7 = 'https://8bitginger.github.io/readmeMaker/';
 const git7 = 'https://github.com/8BitGinger/workforceManager';
 
 const title8 = 'ReadMe Maker';
@@ -37,7 +37,7 @@ const Projects78910 = () => {
         viewport={{ once: false, amount: 0.7 }}
         className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/5 h-60"
       >
-        <a target="_blank" rel="noreferrer" href={git7}>
+        <a target="_blank" rel="noreferrer" href={link7}>
           <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-700"></div>
           <img
             className="group-hover:scale-125 transition-all duration-500 h-full w-full"
@@ -50,7 +50,7 @@ const Projects78910 = () => {
         </div>
         <div className=" absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
           <span className="text-1xl text-white">{subtitle7} </span>
-          <a className="icon" target="_blank" rel="noreferrer" href={link7}>
+          <a className="icon" target="_blank" rel="noreferrer" href={git7}>
             <FaGithub />
           </a>
         </div>

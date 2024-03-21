@@ -188,6 +188,14 @@
   z-index: 99;
 }
 
+.nickname {
+  font-size: 40px;
+  text-align: right;
+  margin-left: 155px;
+  font-style: italic;
+  color: #f5feff;
+}
+
 .btn:disabled {
   background: gray;
   opacity: 0.3;
@@ -353,6 +361,12 @@
 
   .skillItem {
     font-size: 12px;
+  }
+
+  .nickname {
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
   }
 
   .project {

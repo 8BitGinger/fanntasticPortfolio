@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav className="fixed top-2 lg:top-2 overflow-hidden z-50 w-full">
       <div className="container mx-auto md:*:w-auto">
-        <div className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between text-2xl text-white/50 items-center lg:gap-x-8">
+        <nav className="w-full bg-black/20 h-[96px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between text-2xl text-white/50 items-center lg:gap-x-8">
           <Link
             to="home"
             activeClass="active"
@@ -57,7 +57,7 @@ const Header = () => {
           >
             <BsChatSquareText />
           </Link>
-        </div>
+        </nav>
       </div>
     </nav>
   );

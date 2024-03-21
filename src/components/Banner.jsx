@@ -1,5 +1,5 @@
 import { React } from 'react';
-import Image from '../assets/8bit-avatar-noBG.png';
+import Image from '../assets/8bitv1.png';
 
 import { TypeAnimation } from 'react-type-animation';
 
@@ -31,7 +31,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="text-[55px] text-orange-500 font-bold leading-[0.8] lg:text-[110px]"
             >
-              Ryan <span>Fann</span>
+              Ryan Fann
             </motion.h1>
             <motion.div
               variants={fadeIn('up', 0.3)}
@@ -40,6 +40,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               classame="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]"
             >
+              {' '}
+              <span className="nickname">8BitGinger</span>
+              <br></br>
               <span className="text-3xl mr-2 mt-3 font-semibold uppercase">
                 I am a
               </span>
@@ -49,7 +52,9 @@ const Banner = () => {
                   2000,
                   'Designer',
                   2000,
-                  'Student',
+                  'Story Teller',
+                  2000,
+                  'Game Maker',
                   2000,
                 ]}
                 speed={50}
@@ -94,7 +99,7 @@ const Banner = () => {
             whileInView={'show'}
           >
             <img
-              className="hidden avatar lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto"
+              className="hidden avatar lg:flex flex-1 max-w-[320px] lg:max-w-[300px] mx-auto"
               src={Image}
               alt="Avatar"
             />

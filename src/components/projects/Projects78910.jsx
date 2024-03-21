@@ -9,12 +9,12 @@ import Img10 from '../../assets/ticTacTypescript.png';
 
 const title7 = 'Workforce Manager';
 const subtitle7 = 'BackEnd CRM';
-const link7 = 'https://8bitginger.github.io/readmeMaker/';
+const link7 = 'https://8bitginger.github.io/workforceManager/';
 const git7 = 'https://github.com/8BitGinger/workforceManager';
 
 const title8 = 'ReadMe Maker';
 const subtitle8 = 'Node.js';
-const link8 = 'https://github.com/8BitGinger/readmeMaker';
+const link8 = 'https://8bitginger.github.io/readmeMaker/';
 const git8 = 'https://8bitginger.github.io/readmeMaker';
 
 const title9 = 'Silver Knight RPG';

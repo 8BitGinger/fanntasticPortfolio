@@ -2,7 +2,7 @@ import React from 'react';
 
 // components
 import Banner from './components/Banner';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
@@ -15,15 +15,13 @@ const App = () => {
   return (
     <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
       <Banner />
-      <Header />
+      <NavBar />
       <About />
       <Resume />
       <Projects />
       <Spacer />
       <Contact />
       <Footer />
-
-      <div className="h-fit"></div>
     </div>
   );
 };

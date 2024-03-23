@@ -4,7 +4,7 @@ import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
-const Header = () => {
+const NavBar = () => {
   return (
     <nav className="fixed top-2 lg:top-2 overflow-hidden z-50 w-full">
       <div className="container mx-auto md:*:w-auto">
@@ -65,4 +65,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;

@@ -2,20 +2,20 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 import { FaGithub } from 'react-icons/fa';
 
-import Img3 from '../../assets/seo-main.png';
-import Img4 from '../../assets/WeeklyMoodal.png';
+import Img4 from '../../assets/logo-screenshot.png';
+import Img3 from '../../assets/WeeklyMoodal.png';
 import Img5 from '../../assets/quizzed.png';
 import Img6 from '../../assets/noteTaker-double-screenshot.png';
 
-const title3 = 'SkyRocket SEO';
-const subtitle3 = 'SEO Examples';
-const link3 = 'https://seoservices.onrender.com/';
-const git3 = 'https://github.com/8BitGinger/seoServices';
+const title4 = 'Workforce Manager';
+const subtitle4 = 'BackEnd CRM';
+const link4 = 'https://8bitginger.github.io/workforceManager/';
+const git4 = 'https://github.com/8BitGinger/workforceManager';
 
-const title4 = 'Weekly Moodal';
-const subtitle4 = 'jQuery, 3rd-Party APIs';
-const link4 = 'https://jameslwilson364.github.io/weeklyMoodal/';
-const git4 = 'https://github.com/jameslwilson364/weeklyMoodal';
+const title3 = 'Weekly Moodal';
+const subtitle3 = 'jQuery, 3rd-Party APIs';
+const link3 = 'https://jameslwilson364.github.io/weeklyMoodal/';
+const git3 = 'https://github.com/jameslwilson364/weeklyMoodal';
 
 const title5 = 'Quizzed';
 const subtitle5 = 'Vanilla JS';
@@ -35,7 +35,7 @@ const Projects456 = () => {
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.7 }}
-        className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/5 h-60"
+        className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/3 h-60"
       >
         <a target="_blank" rel="noreferrer" href={link3}>
           <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>

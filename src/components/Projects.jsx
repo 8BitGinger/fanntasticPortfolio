@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
 
+import ProjectMove from './projects/ProjectMove';
 import Project1 from './projects/Project1';
 import Project2 from './projects/Project2';
 import Projects3456 from './projects/Projects3456';
@@ -29,9 +30,10 @@ const Projects = () => {
               looking for the next Web Development challenge!
             </p>
           </motion.div>
-          <div className="flex-1 w-lg-max  flex lg:flex-row flex-wrap flex-col gap-x-3 gap-y-3">
+          <div className="flex-1 w-lg-max  flex lg:flex-row flex-wrap flex-col gap-x-3 gap-y-3 justify-center">
             <Project1 />
             <Project2 />
+            <ProjectMove />
             <Projects3456 />
             <Projects78910 />
           </div>

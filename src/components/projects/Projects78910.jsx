@@ -2,25 +2,25 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 import { FaGithub } from 'react-icons/fa';
 
-import Img7 from '../../assets/logo-screenshot.png';
+import Img7 from '../../assets/silverKnight.png';
 import Img8 from '../../assets/readmeMaker.png';
-import Img9 from '../../assets/silverKnight.png';
+import Img9 from '../../assets/myCal - main.png';
 import Img10 from '../../assets/ticTacTypescript.png';
 
-const title7 = 'Workforce Manager';
-const subtitle7 = 'BackEnd CRM';
-const link7 = 'https://8bitginger.github.io/workforceManager/';
-const git7 = 'https://github.com/8BitGinger/workforceManager';
+const title7 = 'Silver Knight RPG';
+const subtitle7 = 'Node.js, Inquirer';
+const link7 = 'https://8bitginger.github.io/silverKnightRPG/';
+const git7 = 'https://github.com/8BitGinger/silverKnightRPG';
 
 const title8 = 'ReadMe Maker';
 const subtitle8 = 'Node.js';
 const link8 = 'https://8bitginger.github.io/readmeMaker/';
 const git8 = 'https://8bitginger.github.io/readmeMaker';
 
-const title9 = 'Silver Knight RPG';
-const subtitle9 = 'Node.js, Inquirer';
-const link9 = 'https://8bitginger.github.io/silverKnightRPG/';
-const git9 = 'https://github.com/8BitGinger/silverKnightRPG';
+const title9 = 'myCal';
+const subtitle9 = 'Dynamic Calendar';
+const link9 = 'https://8bitginger.github.io/myCal/';
+const git9 = 'https://github.com/8BitGinger/myCal';
 
 const title10 = 'TicTacToe';
 const subtitle10 = 'Typescript';
@@ -35,7 +35,7 @@ const Projects78910 = () => {
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.7 }}
-        className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/5 h-60"
+        className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/3 h-60"
       >
         <a target="_blank" rel="noreferrer" href={link7}>
           <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-700"></div>

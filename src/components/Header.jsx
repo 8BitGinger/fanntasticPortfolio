@@ -14,7 +14,7 @@ const Header = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-50}
+            offset={-150}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiHomeAlt />
@@ -24,6 +24,7 @@ const Header = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={-50}
             className="cursor-pointer text-center navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiUser />
@@ -43,7 +44,7 @@ const Header = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-150}
+            offset={-190}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase />
@@ -53,6 +54,7 @@ const Header = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={-100}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsChatSquareText />

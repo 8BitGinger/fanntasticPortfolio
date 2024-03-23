@@ -34,7 +34,7 @@ const ContactModal = () => {
         <button className="btn2" onClick={closeModal}>
           Close
         </button>
-        <div>I will reach out as soon as possible. Thanks!</div>
+        <div>I will contact you as soon as possible. Thanks!</div>
       </Modal>
     </div>
   );

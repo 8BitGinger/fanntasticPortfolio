@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .header {
   width: 100%;
   padding: 10px;
@@ -189,10 +188,18 @@
   z-index: 99;
 }
 
+.container {
+  height: fit-content;
+}
+
+.spacer {
+  min-height: 300px;
+}
+
 .nickname {
   font-size: 40px;
   text-align: right;
-  margin-left: 155px;
+  margin-left: 55px;
   font-style: italic;
   color: #f5feff;
 }
@@ -370,6 +377,10 @@
     margin-left: auto;
   }
 
+  .spacer {
+    display: none;
+  }
+
   .project {
     margin-top: -50px;
   }
@@ -380,5 +391,9 @@
 
   .contact-adj {
     margin-top: 20px;
+  }
+
+  .contact {
+    min-height: 85vh;
   }
 }

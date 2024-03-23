@@ -18,7 +18,7 @@ const Banner = () => {
 
   return (
     <section
-      className="min-h-[85vh] mt-20 lg:min-h-[78vh] flex items-center"
+      className="min-h-[85vh] mt-20 lg:min-h-[100vh] flex items-center"
       id="home"
     >
       <div className="container mx-auto mt-7">
@@ -67,7 +67,7 @@ const Banner = () => {
                 initial="hidden"
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0.7 }}
-                className="mb-8 mt-8 max-w-lg lg:mx-0 text-2xl"
+                className="mb-8 mt-8 max-w-lg lg:mx-0 sm:mx-auto text-2xl"
               >
                 Being a Full Stack Web Developer allows me to harness the best
                 of both Front End and Back End development to create something

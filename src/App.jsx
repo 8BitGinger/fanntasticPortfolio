@@ -8,6 +8,7 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Spacer from './components/Spacer';
 // import Confetti from './components/Confetti';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <About />
       <Resume />
       <Projects />
+      <Spacer />
       <Contact />
       <Footer />
 

@@ -29,7 +29,7 @@ const Contact = () => {
           initial="hidden"
           whileInView={'show'}
           viewport={{ once: false, amount: 0.7 }}
-          className="container sm:min-h-[100vh] mt-50px mx-auto"
+          className="container mx-auto"
         >
           <div className=" flex mt-6 lg:flex-row flex:col">
             <div className="flex-1 flex lg:flex-row flex-col ">

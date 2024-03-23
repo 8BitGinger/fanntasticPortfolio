@@ -10,7 +10,7 @@ import aboutImg from '../assets/about.png';
 
 const About = () => {
   const [ref, inView] = useInView({
-    threshold: 0.5,
+    threshold: 0.1,
   });
   return (
     <section className="section mb-20 h-fit flex-col flex" id="about" ref={ref}>

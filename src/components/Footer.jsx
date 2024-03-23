@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../variants';
 
-import { FaGithub, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -21,8 +21,8 @@ const Footer = () => {
             <a className="icons " href="https://github.com/8BitGinger">
               <FaGithub />
             </a>
-            <a className="icons" href="https://facebook.com/ryanfann">
-              <FaFacebookF />
+            <a className="icons" href="https://twitter.com/the8bitginger">
+              <FaTwitter />
             </a>
             <a
               className="icons"

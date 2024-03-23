@@ -24,7 +24,6 @@ const NavBar = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-50}
             className="cursor-pointer text-center navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiUser />
@@ -34,7 +33,7 @@ const NavBar = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-30}
+            offset={-50}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsClipboardData />

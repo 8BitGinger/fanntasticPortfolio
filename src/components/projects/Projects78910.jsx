@@ -3,7 +3,7 @@ import { fadeIn } from '../../variants';
 import { FaGithub } from 'react-icons/fa';
 
 import Img7 from '../../assets/silverKnight.png';
-import Img8 from '../../assets/readmeMaker.png';
+import Img8 from '../../assets/PasswordGen.png';
 import Img9 from '../../assets/myCal - main.png';
 import Img10 from '../../assets/ticTacTypescript.png';
 
@@ -12,10 +12,10 @@ const subtitle7 = 'Node.js, Inquirer';
 const link7 = 'https://8bitginger.github.io/silverKnightRPG/';
 const git7 = 'https://github.com/8BitGinger/silverKnightRPG';
 
-const title8 = 'ReadMe Maker';
-const subtitle8 = 'Node.js';
-const link8 = 'https://8bitginger.github.io/readmeMaker/';
-const git8 = 'https://8bitginger.github.io/readmeMaker';
+const title8 = 'Password Generator';
+const subtitle8 = 'JS Logic';
+const link8 = 'https://8bitginger.github.io/passwordGenerator/';
+const git8 = 'https://github.com/8BitGinger/passwordGenerator';
 
 const title9 = 'myCal';
 const subtitle9 = 'Dynamic Calendar';

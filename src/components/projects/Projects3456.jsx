@@ -2,15 +2,15 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 import { FaGithub } from 'react-icons/fa';
 
-import Img4 from '../../assets/logo-screenshot.png';
+import Img4 from '../../assets/readmeMaker.png';
 import Img3 from '../../assets/WeeklyMoodal.png';
 import Img5 from '../../assets/quizzed.png';
 import Img6 from '../../assets/noteTaker-double-screenshot.png';
 
-const title4 = 'Workforce Manager';
-const subtitle4 = 'BackEnd CRM';
-const link4 = 'https://8bitginger.github.io/workforceManager/';
-const git4 = 'https://github.com/8BitGinger/workforceManager';
+const title4 = 'ReadMe Maker';
+const subtitle4 = 'Node.js';
+const link4 = 'https://8bitginger.github.io/readmeMaker/';
+const git4 = 'https://8bitginger.github.io/readmeMaker';
 
 const title3 = 'Weekly Moodal';
 const subtitle3 = 'jQuery, 3rd-Party APIs';

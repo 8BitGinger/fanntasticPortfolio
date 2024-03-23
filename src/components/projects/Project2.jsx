@@ -17,7 +17,7 @@ const Project2 = () => {
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.5 }}
-        className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/3 h-60"
+        className="group relative overflow-hidden border-2 border-white/50 rounded-xl lg:w-1/5 h-60"
       >
         <a target="_blank" rel="noreferrer" href={link2}>
           <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>

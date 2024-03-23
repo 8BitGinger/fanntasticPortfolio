@@ -9,12 +9,13 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Spacer from './components/Spacer';
-// import Confetti from './components/Confetti';
+import Confetti from './components/Confetti';
 
 const App = () => {
   return (
     <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
       <Banner />
+      <Confetti />
       <NavBar />
       <About />
       <Resume />

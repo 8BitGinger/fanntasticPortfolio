@@ -9,8 +9,22 @@
   z-index: 99;
 }
 
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0ca8f5;
+  border: 1px solid #000000;
+  border-radius: 20px;
+}
+
 body::-webkit-scrollbar-track {
-  background: #131313;
+  background: #0a0d1c;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #f09308;
 }
 
 .btn {
@@ -157,6 +171,7 @@ body::-webkit-scrollbar-track {
   animation: grow-and-shrink 6000ms;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+  margin: auto;
   margin-top: -20px;
   margin-right: 35px;
 }

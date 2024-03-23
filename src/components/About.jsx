@@ -13,7 +13,11 @@ const About = () => {
     threshold: 0.1,
   });
   return (
-    <section className="section mb-20 h-fit flex-col flex" id="about" ref={ref}>
+    <section
+      className="section about mb-20 h-fit flex-col flex"
+      id="about"
+      ref={ref}
+    >
       <motion.div
         variants={fadeIn('right', 0.5)}
         initial="hidden"
@@ -22,7 +26,7 @@ const About = () => {
         className="container m-5 flex justify-between items-center"
       >
         <div className="lg:flex-row flex-col flex">
-          <div className="flex-1  round bg-about bgcontain bg-no-repeat h-[430px] mix-blend-lighten bg-top w-1/3"></div>
+          <div className="flex-1  round bg-about bg-contain bg-no-repeat h-[430px] mix-blend-lighten bg-top w-1/3"></div>
           <div className="lg:w-2/3 mt-4 mx-auto">
             <h2 className="text-gradient mb-6 mt-8 ml-3 w-fit text-3xl">
               About Me.

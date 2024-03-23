@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
-import { Link } from 'react-scroll';
+import { Link, ActiveLink } from 'react-scroll';
+// import { ActiveLink } from 'react-scroll/modules/mixins/scroller';
 
 const NavBar = () => {
+  const [activeLink, setActiveLink] = useState('home');
+
   return (
     <nav className="fixed top-2 lg:top-2 overflow-hidden z-50 w-full">
       <div className="container mx-auto md:*:w-auto">
@@ -15,6 +18,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             offset={-150}
+            onClick={setActiveLink}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiHomeAlt />
@@ -24,6 +28,8 @@ const NavBar = () => {
             activeClass="active"
             smooth={true}
             spy={true}
+            offset={-50}
+            onClick={setActiveLink}
             className="cursor-pointer text-center navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiUser />
@@ -33,7 +39,8 @@ const NavBar = () => {
             activeClass="active"
             smooth={true}
             spy={true}
-            offset={-50}
+            offset={-40}
+            onClick={setActiveLink}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsClipboardData />
@@ -44,6 +51,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             offset={-190}
+            onClick={setActiveLink}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsBriefcase />
@@ -54,6 +62,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             offset={-100}
+            onClick={setActiveLink}
             className="cursor-pointer navLink w-[60px] h-[60px] flex items-center justify-center"
           >
             <BsChatSquareText />
